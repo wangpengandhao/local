@@ -1,0 +1,59 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-decoration: none;
+}
+header{
+	width: 100%;
+	height: 1rem;
+	background: skyblue;
+	position: fixed;
+	top: 0;
+	left: 0;
+	padding: 0.1rem 0.15rem;
+	box-sizing: border-box;
+}
+header > input{
+	width: 100%;
+	height: 0.8rem;
+	padding: 0 0.1rem;
+	font-size: 0.3rem;
+	text-align: center;
+	color: skyblue;
+	float: left;
+	outline: none;
+	border: none;
+	box-sizing: border-box;
+}
+section{
+	width: 100%;
+	height: 1rem;
+	background: #fff;
+}
+dl dt{
+	width: 100%;
+	height: 1rem;
+	background: #fff;
+	font-size: 0.4rem;
+	padding-left: 0.1rem;
+	line-height: 1rem;
+	color: skyblue;
+	border-top: 0.06rem solid skyblue;
+	border-bottom: 0.01rem solid skyblue;
+}
+dl dd{
+	width: 100%;
+	height: 1rem;
+	background: #fff;
+	font-size: 0.3rem;
+	padding-left: 0.1rem;
+	line-height: 1rem;		
+	border-bottom: 0.01rem solid skyblue;
+}
+dl dd a{
+	width: 100%;
+	height: 100%;
+	display: block;
+	color: #36a6d3;
+}
